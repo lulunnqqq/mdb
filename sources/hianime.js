@@ -8,11 +8,12 @@ const headers = {
 
 export const getInfo = async (callback) => {
     const url = `${DOMAIN}/filter?sort=recently_updated&page=`
-    const moviesInfo = [];
+    
     const res = [];
 
-    for (let i = 1; i <= 1; i++) {
+    for (let i = 1; i <= 400; i++) {
         console.log(`======== RUNNING PAGE ${i} ========`)
+        const moviesInfo = [];
         const { data } = await axios.get(url + i, { headers })
         const $ = cheerio.load(data)
         $(".flw-item").each((key, item) => {
