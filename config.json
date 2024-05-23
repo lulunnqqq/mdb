@@ -1,6 +1,6 @@
 {
     "form_feedback": "https://docs.google.com/forms/d/e/1FAIpQLSfN2ueoSM_BQHVbEKeC2B0LbM0EsAuacB-E_8aL5-SidwPjpg/viewform",
-    "file": "https://github.com/lulunnqqq/mdb/raw/main/db/anime.db",
+    "file": "https://github.com/lulunnqqq/mdb/raw/main/db/anime.sqlite3",
     "name": "Anime Database",
     "version": "1.0.1"
 }
